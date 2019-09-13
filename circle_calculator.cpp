@@ -8,7 +8,8 @@
 #include <cmath>  //  You need to add this library for pow() function.
 
 int main() {
-    std::cout << "The circle's dimensions is R = 15" << std::endl;
-    std::cout << "The circle's perimeter is " << 2*3.14*15 << std::endl;
-    std::cout << "The circle's area is " << 3.14*15*15 << std::endl;
+    std::cout << "The circle's dimensions is R = 15" << std::endl;\
+    std::cout << "" << std::endl;\
+    std::cout << "The circle's perimeter is " << (2*M_PI*15.0) << std::endl;
+    std::cout << "The circle's area is " << (M_PI*pow(15.0, 2.0)) << std::endl;
 }
